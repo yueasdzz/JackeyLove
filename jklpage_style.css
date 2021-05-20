@@ -90,12 +90,12 @@ div p.sentence2{
     background-color:#ad8174;
     color: white;
     text-align: center;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 
 }
 
 .sentence2 span{
-    font-family:"FZShuTi",Helvetica, Arial, sans-serif;
+    font-family:"FZShuTi",'Times New Roman', Times, serif;
 }
 
 .sentence2 .intro{
@@ -109,7 +109,7 @@ nav a{
     background-color:#a33327;
     text-align: center;
     color:white;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 }
 
 nav a:hover{
@@ -125,12 +125,12 @@ nav a:hover{
 
 #Part2 p{
     font-size: 2.0em;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 }
 
 #Part2 span{
     font-size: 0.85em;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 }
 
 /*--------------------------------------*/
@@ -138,7 +138,7 @@ nav a:hover{
 table{
     border-collapse:collapse;
     border:1px solid black;
-    font-family:"Dengxian",DengXian;
+    font-family:"Dengxian",'Times New Roman', Times, serif;
 }
 
 th{
@@ -181,21 +181,21 @@ table a:hover{
 
 #Part1 p.title1{
     font-size: 2.0em;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 }
 
 #Part1 span.title1{
     font-size: 0.85em;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 }
 
 #Part1 p{
-    font-family:"Dengxian",DengXian;
+    font-family:"Dengxian",'Times New Roman', Times, serif;
 }
 
 #Part1 p.middle{
     text-align: center;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
     letter-spacing: 0.3em;
     font-size: 1.1em;
 }
@@ -255,12 +255,12 @@ footer{
 
 #Part3 p{
     font-size: 2.0em;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 }
 
 #Part3 span{
     font-size: 0.85em;
-    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
+    font-family:"FZYaoTi",'Times New Roman', Times, serif;
 }
 
 div.gallery{
