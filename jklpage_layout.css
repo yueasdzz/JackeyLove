@@ -1,0 +1,408 @@
+@charset "utf-8";
+
+html {
+    height: 100%;
+}
+ 
+body {
+    height: 100%;   
+    margin: 0px auto;
+    min-width: 320px;
+    max-width: 1200px;   
+    width: 100%;
+}
+ 
+ /* Flex Layout */
+ 
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+ 
+header,footer {
+    flex-shrink: 0;
+}
+ 
+div.slideshow-container{
+    flex: 1 0 auto;
+}
+
+div.photoanimation{
+    flex: 1 0 auto;
+    position:relative;
+}
+
+div.photoanimation::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+div[class^="animate"]{
+    float:left;
+}
+
+.animate1{
+    position:relative;
+    left:0px;
+}
+
+.animate2{
+    position:relative;
+    right:0px;
+}
+
+.photo{
+    display:none;
+}
+
+/*--------------------------------------*/
+
+div.content1{
+    flex: 1 0 auto;
+}
+
+p.sentence1{
+    width:100%;
+    padding:1em;
+    margin-top: -0.17em;
+}
+
+p.sentence2{
+    width:100%;
+    box-sizing: border-box;
+    border: 2em solid white;
+    border-left: 10em solid white;
+    border-right: 10em solid white;
+    padding-top: 1em;
+}
+
+/*--------------------------------------*/
+
+nav {
+    flex: 1 0 auto;
+}
+
+nav li{
+    display:block;
+    float:left;
+    width:33.33%;
+
+}
+
+nav a {
+    display:block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-right: 0.1em solid white;
+    border-left: 0.1em solid white;
+}
+
+/*--------------------------------------*/
+
+#Part2 {
+    flex: 1 0 auto;
+    width:100%;
+}
+
+#Part2 p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+/*--------------------------------------*/
+
+col.FirstC{
+    width:20%;
+}
+
+col.SecondC{
+    width:70%;
+}
+
+col.ThirdC{
+    width:20%;
+}
+
+.t1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom:2em
+}
+
+/*--------------------------------------*/
+
+#Part1 {
+    flex: 1 0 auto;
+    width:100%;
+}
+
+#Part1 p{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#Part1 p.title1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+#Part1 span.title1{
+    padding: 0em;
+}
+
+#Part1 p.middle{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*--------------------------------------*/
+
+footer{
+    width:100%;
+    flex: 1 0 auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+/*--------------------------------------*/
+
+div.gallery{
+    flex: 1 0 auto;
+    background-color: white;
+}
+
+.gallery img{
+    float:left;
+    display:block;
+    width:50%;
+}
+
+#Part3 {
+    flex: 1 0 auto;
+    width:100%;
+}
+
+#Part3 p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+.gallery .potrait{
+    float:left;
+    display:block;
+    width:33.33%;
+    
+}
+
+/*mobile style*/
+
+@media screen and (max-width:480px){
+
+    p.sentence1{
+        padding:0.5em;
+        font-size: 1em !important;
+    }
+
+    .photoanimation{
+        display:none;
+    }
+
+    .photo{
+        display:block;
+    }
+
+    p.sentence2{
+        border: 1em solid white;
+        border-left: 2em solid white;
+        border-right: 2em solid white;
+        padding-top: 1em;
+    }
+
+    .sentence2 .intro{
+        font-size: 1.8em !important;
+    }
+
+    .sentence2 {
+        font-size:0.8em ;
+    }
+
+    nav a{
+        font-size: 0.65em;
+    }
+
+    #Part1 p.title1{
+        font-size: 1.5em !important;
+    }
+    
+    #Part1 p{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #Part1 p.title1{
+        padding-left: 0.8em;
+    }
+
+    #Part1 p{
+        font-size: 0.8em;
+    }
+
+    #Part1 p.middle{
+        letter-spacing: 0em !important;
+        font-size: 0.9em !important;
+    }
+
+    #Part2 p{
+        font-size: 1.5em !important;
+    }
+    
+    .t1{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        font-size: 0.8em;
+    }
+
+    col.FirstC{
+        width:15%;
+    }
+    
+    col.SecondC{
+        width:70%;
+    }
+    
+    col.ThirdC{
+        width:15%;
+    }
+
+    .material-icons{
+        width:50px;
+        height:50px;
+        font-size: 35px !important;
+        position: fixed;
+        right:0.2em !important;
+        bottom: 0.4em !important;
+    }
+
+}
+
+@media only screen and (min-width:481px){
+    .photoanimation{
+        display:none;
+    }
+
+    .photo{
+        display:block;
+    }
+
+    p.sentence2{
+        border: 1em solid white;
+        border-left: 2em solid white;
+        border-right: 2em solid white;
+        padding-top: 1em;
+    }
+
+    .t1{
+        margin-left: auto !important;
+        margin-right: auto!important;
+        font-size: 0.8em !important;
+    }
+
+    col.FirstC{
+        width:15%;
+    }
+    
+    col.SecondC{
+        width:70%;
+    }
+    
+    col.ThirdC{
+        width:15%;
+    }
+
+}
+
+
+@media only screen and (min-width:1250px){
+    .photoanimation{
+        display:flex;
+    }
+
+    .photo{
+        display:none;
+    }
+
+    p.sentence2{
+        border: 2em solid white;
+        border-left: 10em solid white;
+        border-right: 10em solid white;
+        padding-top: 1em;
+    }
+
+    col.FirstC{
+        width:20%;
+    }
+    
+    col.SecondC{
+        width:70%;
+    }
+    
+    col.ThirdC{
+        width:20%;
+    }
+    
+    .t1{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 2em !important;
+        margin-bottom:2em !important;
+        font-size: 1em !important;
+    }
+
+    
+    .sentence2 {
+        font-size:1em !important;
+    }
+
+    nav a{
+        font-size: 1em !important;
+    }
+
+    #Part1 p{
+        font-size: 1em !important;
+    }
+
+    .sentence2 .intro{
+        font-size: 2.3em !important;
+    }
+
+    .sentence2 {
+        font-size:1em !important;
+    }
+
+    nav a{
+        font-size: 1em !important;
+    }
+
+    #Part1 p{
+        font-size: 1em !important;
+    }
+
+    #Part1 p.title1{
+        font-size: 2.0em !important;
+    }
+    
+    #Part1 span.title1{
+        font-size: 0.85em !important;
+    }
+
+    #Part1 p.middle{
+        letter-spacing: 0.3em !important;
+        font-size: 1.1em !important;
+    }
+}

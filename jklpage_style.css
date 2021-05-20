@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+html{
+    background-color: #c7493a;
+}
+
+body{
+    background-color: white;
+}
+
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;       
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #ad8174;
+}
+
+.animate1{
+    animation-name: animate1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animate2{
+    animation-name: animate2;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate1 {
+    0%{
+        left:200px;
+    }
+
+    50%{
+        left:0px;
+    }
+
+}
+
+@keyframes animate2 {
+    0%{
+        right:200px;
+    }
+
+    50%{
+        right:0px;
+    }
+
+}
+
+/*--------------------------------------*/
+
+.content1{
+    background-color: white;
+}
+
+div p.sentence1{
+    background-color: white;
+    text-align: center;
+    font-size:1.5em;
+    letter-spacing:1.5em;
+
+}
+
+div p.sentence2{
+    background-color:#ad8174;
+    color: white;
+    text-align: center;
+    font-family:"FZYaoTi";
+
+}
+
+.sentence2 span{
+    font-family:"FZShuTi";
+}
+
+.sentence2 .intro{
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+/*--------------------------------------*/
+
+nav a{
+    background-color:#a33327;
+    text-align: center;
+    color:white;
+    font-family:"FZYaoTi";
+}
+
+nav a:hover{
+    color: #a33327;
+    background-color: white;
+}
+
+/*--------------------------------------*/
+
+#Part2{
+    background-color: white;
+}
+
+#Part2 p{
+    font-size: 2.0em;
+    font-family:"FZYaoTi";
+}
+
+#Part2 span{
+    font-size: 0.85em;
+    font-family:"FZYaoTi";
+}
+
+/*--------------------------------------*/
+
+table{
+    border-collapse:collapse;
+    border:1px solid black;
+    font-family:"Dengxian";
+}
+
+th{
+    border:1px solid black;
+    height: 2em;
+}
+
+td{
+    height:1.5em;
+}
+
+.green{
+    background-color: #689775;
+    color:white;
+}
+
+.green a {
+    text-decoration: none;
+    color:white;
+}
+
+.green a:hover{
+    color:black;
+}
+
+table a {
+    text-decoration: none;
+    color:black;
+}
+
+table a:hover{
+    color:#689775;
+}
+
+/*--------------------------------------*/
+
+#Part1{
+    background-color: white;
+}
+
+#Part1 p.title1{
+    font-size: 2.0em;
+    font-family:"FZYaoTi";
+}
+
+#Part1 span.title1{
+    font-size: 0.85em;
+    font-family:"FZYaoTi";
+}
+
+#Part1 p{
+    font-family:"Dengxian";
+}
+
+#Part1 p.middle{
+    text-align: center;
+    font-family:"FZYaoTi";
+    letter-spacing: 0.3em;
+    font-size: 1.1em;
+}
+
+/*--------------------------------------*/
+
+footer{
+    background-color:#a33327;
+    text-align: center;
+    color: white;
+    font-family: "Blackadder ITC";
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+/*--------------------------------------*/
+
+.material-icons{
+    width:70px;
+    height:70px;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius:50%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+    color:white;
+    font-size: 40px;
+    position:fixed;
+    right:1em;
+    bottom: 0.5em;
+    outline:blue;
+    border: none;
+    cursor: pointer;
+
+}
+
+.material-icons a{
+    color:white;
+}
+
+.material-icons a:active{
+    background-color: white;
+    color: black;
+}
+
+.material-icons:active{
+    background-color: white;
+    color: black;
+}
+
+/*--------------------------------------*/
+#Part3{
+    background-color: white;
+}
+
+#Part3 p{
+    font-size: 2.0em;
+    font-family:"FZYaoTi";
+}
+
+#Part3 span{
+    font-size: 0.85em;
+    font-family:"FZYaoTi";
+}
+
+div.gallery{
+    background-color: white;
+}
