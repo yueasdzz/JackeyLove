@@ -90,12 +90,12 @@ div p.sentence2{
     background-color:#ad8174;
     color: white;
     text-align: center;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 
 }
 
 .sentence2 span{
-    font-family:"FZShuTi";
+    font-family:"FZShuTi",Helvetica, Arial, sans-serif;
 }
 
 .sentence2 .intro{
@@ -109,7 +109,7 @@ nav a{
     background-color:#a33327;
     text-align: center;
     color:white;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 }
 
 nav a:hover{
@@ -125,12 +125,12 @@ nav a:hover{
 
 #Part2 p{
     font-size: 2.0em;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 }
 
 #Part2 span{
     font-size: 0.85em;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 }
 
 /*--------------------------------------*/
@@ -138,7 +138,7 @@ nav a:hover{
 table{
     border-collapse:collapse;
     border:1px solid black;
-    font-family:"Dengxian";
+    font-family:"Dengxian",DengXian;
 }
 
 th{
@@ -181,21 +181,21 @@ table a:hover{
 
 #Part1 p.title1{
     font-size: 2.0em;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 }
 
 #Part1 span.title1{
     font-size: 0.85em;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 }
 
 #Part1 p{
-    font-family:"Dengxian";
+    font-family:"Dengxian",DengXian;
 }
 
 #Part1 p.middle{
     text-align: center;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
     letter-spacing: 0.3em;
     font-size: 1.1em;
 }
@@ -206,7 +206,7 @@ footer{
     background-color:#a33327;
     text-align: center;
     color: white;
-    font-family: "Blackadder ITC";
+    font-family: "Blackadder ITC",Segoe Script;
     font-size: 1.5em;
     letter-spacing: 0.1em;
 }
@@ -255,12 +255,12 @@ footer{
 
 #Part3 p{
     font-size: 2.0em;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 }
 
 #Part3 span{
     font-size: 0.85em;
-    font-family:"FZYaoTi";
+    font-family:"FZYaoTi",Helvetica, Arial, sans-serif;
 }
 
 div.gallery{
